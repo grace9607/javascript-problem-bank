@@ -6,11 +6,13 @@
  */
 
 function square(x) {
-  // TODO
+  return x ** 2; // 제곱 계산
 }
 
-// TODO
-let cube;
+// 함수 표현식 방식으로 cube 함수 정의
+let cube = function (x) {
+  return x ** 3; // 세제곱 계산
+};
 
 // export 를 수정하지 마세요.
 export { square, cube };
